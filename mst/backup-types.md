@@ -2,8 +2,8 @@
 title: Types of backups in Managed Service for TimescaleDB
 excerpt: Understand how Timescale Cloud backs up PostgreSQL
 product: cloud
-keywords: [backup, binary, logical]
-tags: [backup, binary, logical]
+keywords: [backup]
+tags: [backup, binary backup, logical backup]
 ---
 # How Timescale Cloud backs up PostgreSQL?
 Timescale Cloud databases are automatically backed-up, with full backups daily,

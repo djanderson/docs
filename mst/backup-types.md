@@ -21,7 +21,7 @@ size of each database, including space consumed by indexes, you can use the `\l+
 
 The two types of backups are binary backups and logical backups. Full backups
 are version-specific binary backups, which when combined with WAL allow
-consistent recovery to a point in time (PITR). Whereas logical backups are
+consistent recovery to a point in time (PITR). Logical backups can be
 taken using the `pg_dump` command.
 
 ## Differences between logical and binary backups

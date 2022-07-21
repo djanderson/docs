@@ -5,7 +5,8 @@ product: cloud
 keywords: [backup]
 tags: [backup, binary backup, logical backup]
 ---
-# How Timescale Cloud backs up PostgreSQL?
+
+# Backups in Managed Service for TimescaleDB
 Timescale Cloud databases are automatically backed-up, with full backups daily,
 and write-ahead log (WAL) recorded continuously. All backups are
 [encrypted][avien-encrypt]. Timescale Cloud uses [`pghoard`][pghoard], a PostgreSQL® backup

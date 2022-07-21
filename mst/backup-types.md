@@ -1,5 +1,5 @@
 ---
-title: Types of Backups
+title: Types of backups in Managed Service for TimescaleDB
 excerpt: Understand how Timescale Cloud backs up PostgreSQL
 product: cloud
 keywords: [backup, binary, logical]

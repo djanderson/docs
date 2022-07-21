@@ -10,7 +10,7 @@ tags: [backup, binary backup, logical backup]
 Timescale Cloud databases are automatically backed up, with full backups daily,
 and write-ahead log (WAL) recorded continuously. All backups are
 [encrypted][avien-encrypt]. Timescale Cloud uses [`pghoard`][pghoard], a PostgreSQL® backup
-daemon and restore tool to store backup data in cloud object stores. The number of
+daemon and restore tool, to store backup data in cloud object stores. The number of
 backups stored and the retention time of the backup depends on the service plan.
 
 <highlight type="important"> The size of logical backups, and the size of the

@@ -16,7 +16,7 @@ backups stored and the retention time of the backup depends on the service plan.
 <highlight type="important"> 
 The size of logical backups, and the size of the Managed Service for TimescaleDB backup that 
 appears on the Managed Service for TimescaleDB web console differs, in some cases 
-significantly. Backup sizes that appear in the Timescale Cloud web console 
+significantly. Backup sizes that appear in the Managed Service for TimescaleDB web console 
 are for daily backups, before encryption and compression. To view the size 
 of each database, including space consumed by indexes, you can use 
 the `\l+` command at the psql prompt. 

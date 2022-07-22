@@ -23,7 +23,7 @@ the `\l+` command at the psql prompt.
 </highlight> 
 
 The two types of backups are binary backups and logical backups. Full backups
-are version-specific binary backups, which when combined with WAL allow
+are version-specific binary backups which, when combined with WAL, allow
 consistent recovery to a point in time (PITR). Logical backups can be
 taken using the `pg_dump` command.
 

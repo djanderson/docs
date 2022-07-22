@@ -28,6 +28,7 @@ are version-specific binary backups which, when combined with WAL, allow
 consistent recovery to a point in time (PITR). You can create a 
 logical backup with the `pg_dump` command.
 
+This table lists the differences binary and logical backups with respect to indexes, transactions, and data. 
 |Type|Binary|Logical|
 |---|---|---|
 |index|contains all data from indexes| does not contain index data, it contains only queries used to recreate indexes from other data|

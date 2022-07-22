@@ -22,12 +22,11 @@ of each database, including space consumed by indexes, you can use
 the `\l+` command at the psql prompt. 
 </highlight> 
 
+## Differences between logical and binary backups
 The two types of backups are binary backups and logical backups. Full backups
 are version-specific binary backups which, when combined with WAL, allow
 consistent recovery to a point in time (PITR). You can create a 
 logical backup with the `pg_dump` command.
-
-## Differences between logical and binary backups
 
 |Type|Binary|Logical|
 |---|---|---|
